@@ -9,6 +9,8 @@ It's main advantage is that the syntax is the same as the Laravel Mail component
 <br />
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Bogardo/Mailgun?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Total Downloads](https://poser.pugx.org/bogardo/mailgun/downloads.png)](https://packagist.org/packages/bogardo/mailgun) [![Monthly Downloads](https://poser.pugx.org/bogardo/mailgun/d/monthly.png)](https://packagist.org/packages/bogardo/mailgun)
+## Forked version ##
+guzzlehttp version 6.0 issue solved by updating dependency and including guzzle6/client
 
 ## Table of contents ##
 - [Installation](#installation)
