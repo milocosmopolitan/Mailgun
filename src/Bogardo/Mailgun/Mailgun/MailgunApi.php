@@ -18,12 +18,13 @@ abstract class MailgunApi
      */
     public function mailgun($init = false, $apiKey = '')
     {
+        $client = new \Http\Adapter\Guzzle6\Client();
         if (!$this->mailgun || $init === true) {
             if (!$apiKey) {
                 $apiKey = config('mailgun.api_key');
             }
 
-            $this->mailgun = new MailgunCore($apiKey);
+            $this->mailgun = new MailgunCore($apiKey, $client);
         }
 
         return $this->mailgun;
